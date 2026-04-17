@@ -6,7 +6,7 @@ A real-time fair-value model for the Tunisian Dinar (USD/TND) built for the **IN
 
 ## Overview
 
-The Central Bank of Tunisia (BCT) publishes an official USD/TND fixing rate twice daily. In practice, banks trade at a different price — the interbank (IB) rate — which reflects real local market conditions. This model bridges the gap by estimating a continuously updating **intrinsic value** for USD/TND that accounts for both global currency fundamentals and local Tunisian liquidity conditions.
+The Central Bank of Tunisia (BCT) publishes an official USD/TND fixing rate twice daily. In practice, banks trade at a different price  the interbank (IB) rate which reflects real local market conditions. This model bridges the gap by estimating a continuously updating **intrinsic value** for USD/TND that accounts for both global currency fundamentals and local Tunisian liquidity conditions.
 
 ---
 
@@ -45,14 +45,14 @@ Intrinsic Value(t) = Baseline(t) + Nowcasted Spread(t)
 | 2022–2023 | Crisis (dollar scarcity) | 0.00846 | 0.9936 |
 | 2024–2026 | New regime (dollar surplus) | 0.00727 | 0.9937 |
 
-**The intrinsic value tracks the actual interbank rate with over 99.3% correlation across all market conditions — including during the 2022–2023 dollar scarcity crisis when the official BCT fixing significantly lagged the market.**
+**The intrinsic value tracks the actual interbank rate with over 99.3% correlation across all market conditions  including during the 2022–2023 dollar scarcity crisis when the official BCT fixing significantly lagged the market.**
 
 ---
 
 ## Key Findings
 
 - EUR/USD is the dominant driver of TND movements (weight = −0.352, p < 0.001)
-- The IB-fixing spread has a lag-1 autocorrelation of 0.93 — making it highly predictable
+- The IB-fixing spread has a lag-1 autocorrelation of 0.93  making it highly predictable
 - Three distinct market regimes were identified over 2020–2026
 - The intrinsic value outperforms the BCT fixing as a real-time proxy for the IB rate
 
@@ -91,11 +91,11 @@ Intrinsic Value(t) = Baseline(t) + Nowcasted Spread(t)
 ## Technologies
 
 - **Python 3.12**
-- **pandas** — data manipulation and alignment
-- **numpy** — numerical computations
-- **statsmodels** — OLS regression, AR(1) model, ADF test
-- **matplotlib** — visualization
-- **scikit-learn** — MAE and RMSE evaluation metrics
+- **pandas**  data manipulation and alignment
+- **numpy**  numerical computations
+- **statsmodels**  OLS regression, AR(1) model, ADF test
+- **matplotlib**  visualization
+- **scikit-learn**  MAE and RMSE evaluation metrics
 
 ---
 
