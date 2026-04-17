@@ -1,4 +1,3 @@
-# TND-Intrinsic-Value-Model
 # Real-Time Intrinsic TND Valuation Model
 
 A real-time fair-value model for the Tunisian Dinar (USD/TND) built for the **IN 22-21 Times Series Analysis** course at HIDE Institute, under the supervision of Dr Eymen Errais.
