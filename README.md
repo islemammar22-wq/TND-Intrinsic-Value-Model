@@ -1,0 +1,1 @@
+# TND-Intrinsic-Value-Model
