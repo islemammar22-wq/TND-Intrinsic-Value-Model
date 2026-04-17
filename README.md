@@ -91,11 +91,11 @@ Intrinsic Value(t) = Baseline(t) + Nowcasted Spread(t)
 ## Technologies
 
 - **Python 3.12**
-- **pandas** — data manipulation and alignment
-- **numpy** — numerical computations
-- **statsmodels** — OLS regression, AR(1) model, ADF test
-- **matplotlib** — visualization
-- **scikit-learn** — MAE and RMSE evaluation metrics
+- **pandas**  data manipulation and alignment
+- **numpy**  numerical computations
+- **statsmodels**  OLS regression, AR(1) model, ADF test
+- **matplotlib** visualization
+- **scikit-learn**  MAE and RMSE evaluation metrics
 
 ---
 
